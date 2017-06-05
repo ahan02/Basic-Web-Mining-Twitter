@@ -7,6 +7,7 @@ library(ggplot2)
 library(XML)
 library(magrittr)
 
+##get access##
 api_key <- ""
 
 api_secret <- ""
