@@ -1,6 +1,7 @@
 from TwitterSearch import *
 try:
-    tso = TwitterSearchOrder() # create a TwitterSearchOrder object
+    tso = TwitterSearchOrder()
+    #Keyword search
     tso.set_keywords(['Apple', 'Apple Watch']) 
     tso.set_language('en') 
     tso.set_include_entities(False) 
