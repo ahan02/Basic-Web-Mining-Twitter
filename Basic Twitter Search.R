@@ -17,7 +17,7 @@ access_token_secret <- ""
 
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 
-######Twitter page search, grab all tweets from certain id (e.g. nytimes)#####
+######Twitter page search, grab all tweets from certain id (e.g. @nytimes)#####
 MAX_TWEETS <- 10000
 tweets_raw <- userTimeline('nytimes', n = MAX_TWEETS,includeRts = FALSE, excludeReplies = TRUE)
 
